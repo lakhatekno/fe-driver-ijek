@@ -1,0 +1,6 @@
+runtime: php83
+service: appdriver
+
+handlers:
+- url: /.*
+  script: index.php
